@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards com Twind</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="https://unpkg.com/@twind/core@1"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+      body {
+        background: #e5e7eb;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        flex-wrap: wrap;
+        gap: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w-72 bg-white rounded-xl shadow-lg overflow-hidden">
+      <div class="bg-green-200 h-36 flex items-center justify-center">
+        <i class="ph ph-image text-5xl text-green-700"></i>
+      </div>
+      <div class="p-4">
+        <h2 class="font-bold text-xl mb-1">Natureza</h2>
+        <p class="text-gray-600 text-sm">Explore o mundo natural com paisagens incríveis e vida selvagem.</p>
+      </div>
+      <div class="px-4 py-3">
+        <button class="w-full py-2 rounded-xl bg-gradient-to-r from-green-400 to-green-600 text-white font-semibold">
+          Explorar
+        </button>
+      </div>
+    </div>
+
+    <div class="w-72 bg-white rounded-xl shadow-lg overflow-hidden">
+      <div class="bg-blue-200 h-36 flex items-center justify-center">
+        <i class="ph ph-music-notes-simple text-5xl text-blue-700"></i>
+      </div>
+      <div class="p-4">
+        <h2 class="font-bold text-xl mb-1">Música</h2>
+        <p class="text-gray-600 text-sm">Descubra novas melodias e artistas de todos os estilos musicais.</p>
+      </div>
+      <div class="px-4 py-3">
+        <button class="w-full py-2 rounded-xl bg-gradient-to-r from-blue-400 to-blue-600 text-white font-semibold">
+          Ouvir Agora
+        </button>
+      </div>
+    </div>
+
+    <div class="w-72 bg-white rounded-xl shadow-lg overflow-hidden">
+      <div class="bg-pink-200 h-36 flex items-center justify-center">
+        <i class="ph ph-camera text-5xl text-pink-700"></i>
+      </div>
+      <div class="p-4">
+        <h2 class="font-bold text-xl mb-1">Fotografia</h2>
+        <p class="text-gray-600 text-sm">Capture momentos únicos com dicas e equipamentos recomendados.</p>
+      </div>
+      <div class="px-4 py-3">
+        <button class="w-full py-2 rounded-xl bg-gradient-to-r from-pink-400 to-pink-600 text-white font-semibold">
+          Ver Galeria
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
